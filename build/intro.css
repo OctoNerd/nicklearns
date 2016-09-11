@@ -1,0 +1,33 @@
+.bar {
+	height: 20px;
+	width: 300px;
+	background-color: #ff8d00;
+	border-top: 5px solid #ce7300;
+	display: inline-block;
+}
+
+.title-text {
+	display: inline-block;
+	font-size: 75px;
+	color: #ff8d00;
+	font-family: sans-serif;
+	text-shadow: 0px -5px #ce7300;
+}
+
+.title-text--code {
+	display: inline-block;
+	font-size: 75px;
+	font-family: courier;
+	margin-left: 45px;
+}
+
+.cursor {
+	height: 5px;
+	width: 45px;
+	background-color: black;
+	display:inline-block;
+}
+
+.row-wrap {
+	text-align: center;
+}
