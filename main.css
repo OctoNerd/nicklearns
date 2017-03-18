@@ -136,10 +136,6 @@ h2 {
 	font-size: inherit;
 }
 
-
-
-/*test for css intro graphic*/
-
 .bar {
 	height: 20px;
 	width: 250px;
@@ -217,49 +213,6 @@ svg {
 	}
 }
 
-
-/* END intro graphic test */
-
-
-
-
-
-/*
-#tagline, #blink {
-	position: absolute;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 100px;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-}
-
-@keyframes blink {
-    0% {
-        opacity: 1;
-    }
-    49% {
-    	opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-    99% {
-    	opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-#blink {
-    animation: blink 1.5s;
-    animation-iteration-count: infinite;
-}
-*/
-
 .headline {
 	margin-top: 15px;
 	max-width: 750px;
@@ -310,7 +263,6 @@ svg {
 	font-size: 1.2em;
 	background-color: #eee;
 	padding: 10px;
-	z-index: ;
 }
 
 .blurb-wrap {
