@@ -161,7 +161,7 @@ svg {
 }
 
 .repeat-button {
-	width: 30px;
+	width: 80px;
 	margin: 0 auto;
 	cursor: pointer;
 }
@@ -185,6 +185,9 @@ svg {
 	}
 }
 
+.repeat-button span {
+	font-family: courier;
+}
 
 .headline {
 	margin-top: 15px;
@@ -196,7 +199,6 @@ svg {
 #intro {
 	padding: 100px 10px 0px 10px;
 }
-
 
 /*Headings*/
 
@@ -278,7 +280,6 @@ p {
 
 #skills {
 	display: block;
-	width: 360px;
 	margin: auto;
 	text-align: left;
 }
@@ -292,7 +293,6 @@ p {
 
 .info {
 	text-align: left;
-	width: 310px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 18px;
@@ -366,123 +366,7 @@ input:focus, textarea:focus{
 	background: #f0b35f;
 }
 
-/*Media queries*/
-/* ---Nav bar --- */
-@media screen and (max-width: 500px){
-	nav ul{
-		max-height: 0;
-		background-color: black;
-		margin-bottom: 0;
-		text-align: center;
-		margin-left: 6em;
-	}
 
-	.showing{
-		max-height: 15em;
-	}
-
-	nav ul li{
-		box-sizing: border-box;
-		width: 100%;
-		text-align: left;
-		background-color: black;
-		color: white;
-	}
-
-	.mobile-nav{
-		display: block;
-	}
-
-	.logo {
-	position: absolute;
-	left: 1%;
-	}
-
-	.contact-email {
-		margin-bottom: 50px;
-	}
-}
-
-@media screen and (max-width: 765px){
-	/*---Intro graphic---*/
-	.bar {
-		width: 150px;
-	}
-	.bar-short {
-		width: 100px;
-	}
-}
-
-@media screen and (max-width: 565px) {
-	/*---Intro graphic---*/
-	.title-text {
-		font-size: 70px;
-	}
-	.title-text--code {
-		font-size: 50px;
-	}
-	.bar {
-		width: 100px;
-	}
-	.bar-short {
-		width: 75px;
-	}
-}
-
-@media screen and (max-width: 320px) {
-	/*---Logo---*/
-	.logo {
-		height: 50px;
-		width: 50px;
-	}
-	/*---Intro graphic---*/
-	.row-wrap {
-		margin-bottom: 10px;
-	}
-	.title-text {
-		font-size: 40px;
-		line-height: .8;
-	}
-	.title-text--code {
-		font-size: 30px;
-		line-height: .8;
-		margin-left: 19px;
-	}
-	.bar {
-		width: 50px;
-		height: 10px;
-		margin-bottom: 12px;
-	}
-	.bar-short {
-		width: 30px;
-		height: 10px;
-		margin-bottom: 12px;
-	}
-	svg {
-		height: 18px;
-		width: 18px;
-	}
-	.cursor {
-		width: 15px;
-		height: 3px;
-	}
-
-	/*---Headings---*/
-	h2 {
-		font-size: 25px;
-		margin-left: 10px;
-		margin-right: 10px;
-	}
-	h2 span {
-		font-size: 30px;
-	}
-
-	/*---Text---*/
-	p {
-		font-size: 15px;
-	}
-
-}
 
 @font-face {
 	font-family: 'bebasKai';
@@ -599,4 +483,144 @@ input:focus, textarea:focus{
 	margin-right: auto;
 	margin-top: 50px;
 	margin-bottom: 60px;
+}
+
+/*Media queries*/
+/* ---Nav bar --- */
+@media screen and (max-width: 500px){
+	nav ul{
+		max-height: 0;
+		background-color: black;
+		margin-bottom: 0;
+		text-align: center;
+		margin-left: 6em;
+	}
+
+	.showing{
+		max-height: 15em;
+	}
+
+	nav ul li{
+		box-sizing: border-box;
+		width: 100%;
+		text-align: left;
+		background-color: black;
+		color: white;
+	}
+
+	.mobile-nav{
+		display: block;
+	}
+
+	.logo {
+	position: absolute;
+	left: 1%;
+	}
+
+	.contact-email {
+		margin-bottom: 50px;
+	}
+}
+
+@media screen and (max-width: 765px){
+	/*---Intro graphic---*/
+	.bar {
+		width: 150px;
+	}
+	.bar-short {
+		width: 100px;
+	}
+}
+
+@media screen and (max-width: 565px) {
+	/*---Intro graphic---*/
+	.title-text {
+		font-size: 70px;
+	}
+	.title-text--code {
+		font-size: 50px;
+	}
+	.bar {
+		width: 100px;
+	}
+	.bar-short {
+		width: 75px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	/*---Logo---*/
+	.logo {
+		height: 50px;
+		width: 50px;
+	}
+	/*---Intro graphic---*/
+	.row-wrap {
+		margin-bottom: 10px;
+	}
+	.title-text {
+		font-size: 45px;
+		line-height: .9;
+	}
+	.title-text--code {
+		font-size: 35px;
+		line-height: .9;
+		margin-left: 19px;
+	}
+	.bar {
+		width: 65px;
+		height: 10px;
+		margin-bottom: 12px;
+	}
+	.bar-short {
+		width: 45px;
+		height: 10px;
+		margin-bottom: 12px;
+	}
+	svg {
+		height: 18px;
+		width: 18px;
+	}
+	.cursor {
+		width: 15px;
+		height: 3px;
+	}
+
+	/*---Headings---*/
+	h2 {
+		font-size: 25px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	h2 span {
+		font-size: 30px;
+	}
+	.section {
+		padding-top: 40px;
+	}
+
+	/*---Text---*/
+	p {
+		font-size: 15px;
+	}
+	#skills li {
+		font-size: 15px;
+	}
+	.description {
+		font-size: 15px;
+	}
+	#now ul li {
+		font-size: 15px;
+	}
+
+	/*---Social links---*/
+	.social-links {
+		margin-top: 40px;
+	}
+	.social-links a{
+		width: 40px;
+		line-height: 40px;
+		font-size: 18px;
+	}
+
 }
