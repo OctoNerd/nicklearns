@@ -157,13 +157,17 @@ svg {
 	height: 30px;
 	width: 30px;
 	position: relative;
-	top: 4px;
+	top: 8px;
 }
 
 .repeat-button {
-	width: 80px;
+	width: 200px;
 	margin: 0 auto;
-	cursor: pointer;
+	/*cursor: pointer;*/
+}
+
+.repeat-button span {
+	font-size: 25px;
 }
 
 .repeat-icon {
@@ -209,11 +213,7 @@ svg {
 	display: inline-block;
 }
 
-@media screen and (max-width: 500px){
-	.heading div {
-		width: 50px;
-	}
-}
+
 
 h2 span {
 	text-transform: uppercase;
@@ -513,8 +513,8 @@ input:focus, textarea:focus{
 	}
 
 	.logo {
-	position: absolute;
-	left: 1%;
+		position: absolute;
+		left: 1%;
 	}
 
 	.contact-email {
@@ -522,7 +522,19 @@ input:focus, textarea:focus{
 	}
 }
 
-@media screen and (max-width: 765px){
+@media screen and (max-width: 930px) {
+	.heading div {
+		width: 250px;
+	}
+}
+
+@media screen and (max-width: 850px){
+	.heading div {
+		width: 150px;
+	}
+}
+
+@media screen and (max-width: 780px){
 	/*---Intro graphic---*/
 	.bar {
 		width: 150px;
@@ -532,7 +544,24 @@ input:focus, textarea:focus{
 	}
 }
 
-@media screen and (max-width: 565px) {
+@media screen and (max-width: 650px){
+	h2 {
+		font-size: 25px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	h2 span {
+		font-size: 30px;
+	}
+	.section {
+		padding-top: 40px;
+	}
+	.heading div {
+		width: 100px;
+	}
+}
+
+@media screen and (max-width: 580px) {
 	/*---Intro graphic---*/
 	.title-text {
 		font-size: 70px;
@@ -546,9 +575,18 @@ input:focus, textarea:focus{
 	.bar-short {
 		width: 75px;
 	}
+	.cursor {
+		width: 35px;
+	}
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px){
+	.heading div {
+		width: 50px;
+	}
+}
+
+@media screen and (max-width: 420px) {
 	/*---Logo---*/
 	.logo {
 		height: 50px;
@@ -580,10 +618,14 @@ input:focus, textarea:focus{
 	svg {
 		height: 18px;
 		width: 18px;
+		top: 3px;
+	}
+	.repeat-button span {
+		font-size: 16px;
 	}
 	.cursor {
-		width: 15px;
-		height: 3px;
+		width: 20px;
+		height: 4px;
 	}
 
 	/*---Headings---*/
