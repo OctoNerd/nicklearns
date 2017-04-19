@@ -10,18 +10,16 @@
     <link rel="shortcut icon" href="images/favicon-.ico" type="image/x-icon">
     <link rel="icon" href="images/favicon-.ico" type="image/x-icon">
     <title>Nick Learns | Responsive web design and development</title>
-    
 
-    <!-- Bootstrap CDN-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
-    <!-- jQuery  CDN-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
 
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="flow.css">
     <link rel="stylesheet" href="main.css">
+    
 </head>
 
 <body>
@@ -47,7 +45,7 @@
     </div> <!--END header-wrap -->
 
     <div class="row">
-        <div id="intro" class="section text-center">            
+        <div id="intro" class="section">            
 
             <div id="intro-graphic">	
                 <div class="row-wrap">
@@ -76,7 +74,7 @@
             <p class="headline">Hello, my name is Nick Eddy. I am a front-end Web Developer and Small Business Owner living and working in Portland, OR. I specialize in front-end development making responsive sites and have experience with branding and logo design.</p>
         </div>
     </div><!-- END row -->
-    <div id="my-work" class="row section text-center">
+    <div id="my-work" class="row section">
 
         <div class="hidden-mobile heading">
             <div class="black-bar--lg"></div>
@@ -85,32 +83,40 @@
             <p>Take a look at what I've done.</p>
         </div>        
         
-        <div class="col-sm-6 work-block">
+        <div class="col-md-6 col-lg-12 work-block">
             <div class="card">
                 <a href="http://OctoNerd.github.io/todo" target="_blank">
-                    <img id="todo-img" class="img-responsive" src="images/todo-snap.png" alt="To do list maker">  
+                    <img id="todo-img" class="img-responsive" src="images/todo-snap2.png" alt="To do list maker">  
                 </a>
-                <p class="description">Javascript DOM manipulation, UI design, Styling + interaction</p>
+                <p class="description">JavaScript to do list application</p>
             </div>
         </div>
-        <div class="col-sm-6 work-block">
+        <div class="col-md-6 col-lg-12 work-block">
             <div class="card">
                 <a href="http://www.washcyclewindows.com" target="_blank">
                     <img id="washcycle-img" class="img-responsive" src="images/washcycle-homepage.png" alt="Washcycle Site">  
                 </a>
-                <p class="description">Responsive design, HTML/CSS, logo design, content.</p>
+                <p class="description">Washcycle window cleaning company website</p>
             </div>
         </div>
-        <div class="col-sm-6 work-block">
+        <div class="col-md-6 col-lg-12 work-block">
             <div class="card">
-                <a href="http://www.nicklearns.com" target="_blank">
-                    <img id="nicklearns-img" class="img-responsive" src="images/nicklearns-homepage.png" alt="Nick Learns Site">
+                <a href="http://octonerd.github.io/mastermind" target="_blank">
+                    <img id="mastermind-img" class="img-responsive" src="images/mastermind.png" alt="Mastermind game">
                 </a>
-                <p class="description">Responsive design, HTML/CSS/jQuery, logo design, content.</p>
+                <p class="description">Mastermind game made with JavaScript</p>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-12 work-block">
+            <div class="card">
+                <a href="#" target="_blank">
+                    <img id="mastermind-img" class="img-responsive" src="images/pokemonquiz.png" alt="Pokemon quiz">
+                </a>
+                <p class="description">Pokemon type quiz made with JavaScript</p>
             </div>
         </div>
     </div> <!-- END My Work row -->
-    <div id="about-me" class="row section text-center">
+    <div id="about-me" class="row section">
 
         <div class="hidden-mobile heading">
             <div class="black-bar--lg"></div>
@@ -136,7 +142,7 @@
             </ul>
         </div>
     </div><!-- END row -->
-    <div id="contact" class="row section text-center">
+    <div id="contact" class="row section">
 
         <div class="hidden-mobile heading">
             <div class="black-bar--lg"></div>
@@ -145,13 +151,7 @@
             <p>Let's get in touch.</p>
         </div>      
 
-        <div class="col-md-6">
-            <div class="info">
-                <h3>Name</h3><p class="contact-name">Nick Eddy</p>
-                <h3>Email</h3><p class="contact-email">nick.a.eddy@gmail.com</p>
-            </div>
-        </div>
-        <div class="col-md-6">
+        <div class="col-md-12">
             <div class="form">
                 <!-- Formspree static contact form -->
                 <form action="https://formspree.io/nick.a.eddy@gmail.com" method="POST">
@@ -175,22 +175,18 @@
             </div>
         </div>
     </div><!-- END contact -->
-    <div id="now" class="row section text-center" name="now">
+    <div id="now" class="row section" name="now">
 
         <div class="hidden-mobile heading">
             <div class="black-bar--lg"></div>
             <h2>right <span>now</span></h2>
             <div class="black-bar--lg"></div>
             <p>See what I'm up to.</p>
-        </div>      
-
-    <!-- old Right Now header
-        <img class="right-now-head img-responsive visible-mobile heading" src="images/right-now-sm.png" alt="Right now, See what I'm up to.">
-   -->
+        </div>     
 
         <h3>This is what I spend all of my time on.</h3>
         <p class="date">Most recent update: March 24th, 2017</p>
-        <p>These are my priorities at the current time in no particular order, I will update this list as they change.</p>
+        <p class="nowDescription">These are my priorities at the current time in no particular order, I will update this list as they change.</p>
         <ul>
             <li>Learning all that I can about web design and development.</li>
             <li>Thinking up projects to show my skills.</li>
@@ -203,11 +199,32 @@
     </div>
 
     <script>
-        $(document).ready(function(){        
-            $('.mobile-nav').on('click', function(){
-                $('nav ul').toggleClass('showing');
+
+        function ready(fn) {
+            console.log(document.readyState);
+            if (document.readyState != 'loading'){
+                fn();
+            } else {
+                document.addEventListener('DOMContentLoaded', fn);
+            }
+        }
+
+        var toggleNav = function() {
+            var mobileNav = document.querySelector(".mobile-nav");
+            var navList = document.querySelector("nav ul");
+            mobileNav.addEventListener("click", function() {
+                if(navList.className == "showing") {
+                    navList.className = "";
+                } else if(navList.className == "") {
+                    navList.className = "showing";
+                }
             });
-        });
+        }
+
+        ready(toggleNav);
+        
+
+
     </script>
 
 </body>

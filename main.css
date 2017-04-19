@@ -2,8 +2,14 @@ body {
 	background-image: url(images/bg1.png);
 	background-attachment: fixed;
 	font-family: 'Lato', sans-serif;
-	font-size: 1.4em;
+	font-size: 14px;
 	line-height: 1.6;
+}
+
+.img-responsive {
+	display: block;
+	max-width: 100%;
+	height: auto;
 }
 
 nav {
@@ -202,6 +208,7 @@ svg {
 
 #intro {
 	padding: 100px 10px 0px 10px;
+	text-align: center;
 }
 
 /*Headings*/
@@ -236,17 +243,21 @@ p {
 
 /*--My work --*/
 .work-block {
-	margin-top: 0px;
-	margin-bottom: 25px;
+	margin-top: 15px;
+	margin-bottom: 30px;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: center;
 }
 
 .work-block img {
 	margin-left: auto;
 	margin-right: auto;
+	height: 100%;
 }
 
 .card {
-		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .description {
@@ -316,10 +327,12 @@ h3 {
 form {
 	max-width: 400px;
 	margin: 10px auto 0px;
+	text-align: center;
 }
 
 form label {
 	display: block;
+	text-align: left;
 }
 
 form label span {
@@ -445,6 +458,10 @@ input:focus, textarea:focus{
 	color: black;
 }
 
+#now {
+	text-align: center;
+}
+
 #now ul li {
 	font-size: 1.4em;
 	font-family: inherit;
@@ -474,6 +491,10 @@ input:focus, textarea:focus{
 	margin: auto;
 	margin-bottom: 20px;
 	padding: 25px;
+}
+
+.nowDescription {
+	font-size: 14px;
 }
 
 .footer-logo {
