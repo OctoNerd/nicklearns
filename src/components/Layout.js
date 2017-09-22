@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
-import Header from './Header'
+import Header from './Header';
+import Projects from './Projects';
 
 class Layout extends Component {
   render() {
     return (
-      <div>
-          <Header /> 
-      </div>
+        <div>
+            <Header />
+            <Projects />
+        </div>
     );
   }
 }

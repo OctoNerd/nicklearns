@@ -1,0 +1,20 @@
+.name {
+    font-family: sans-serif;
+    font-size: 3em;
+    margin: 0;
+    width: 7em;
+}
+
+.menu {
+    width: 15em;
+}
+
+.menu__link {
+    color: black;
+    margin: .5em;
+    text-decoration: none;
+}
+
+.menu__link:hover {
+    color: lightblue;
+}
