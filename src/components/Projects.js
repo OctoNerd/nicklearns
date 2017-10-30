@@ -1,13 +1,18 @@
 import React, { Component } from 'react';
 import "./Projects.css";
-import Project from "./Project";
+import Project from "./Project";4
 
 class Projects extends Component {
   render() {
     return (
         <div>
             <h2 className="heading">Projects</h2>
-            <Project />
+            <div className = "projectWrap">
+              <Project />
+              <Project />
+              <Project />
+              <Project />
+            </div>
         </div>
     );
   }

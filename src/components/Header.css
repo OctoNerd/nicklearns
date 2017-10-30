@@ -6,15 +6,25 @@
 }
 
 .menu {
-    width: 15em;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 14em;
+    padding: 0;
+    float: right;
 }
 
-.menu__link {
-    color: black;
+.menu__item {
+    list-style: none;
     margin: .5em;
-    text-decoration: none;
+    display: inline-block;
 }
 
-.menu__link:hover {
+.menu__item a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu__item a:hover {
     color: lightblue;
 }
