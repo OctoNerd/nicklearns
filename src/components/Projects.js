@@ -5,7 +5,7 @@ import Project from "./Project";4
 class Projects extends Component {
   render() {
     return (
-        <div>
+        <div className = "section-projects" id = "projects">
             <h2 className="heading">Projects</h2>
             <div className = "projectWrap">
               <Project />

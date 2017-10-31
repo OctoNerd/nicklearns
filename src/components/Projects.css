@@ -1,3 +1,7 @@
+.section-projects {
+    background-color: white;
+}
+
 .projectWrap {
     display: flex;
     flex-wrap: wrap;

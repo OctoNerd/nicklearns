@@ -1,17 +1,21 @@
+header {
+    height: 500px;
+    text-align: center
+}
 .name {
     font-family: sans-serif;
     font-size: 3em;
-    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
     width: 7em;
+    color: white;
 }
 
 .menu {
-    position: absolute;
-    top: 0px;
-    right: 0px;
     width: 14em;
     padding: 0;
-    float: right;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .menu__item {
@@ -22,9 +26,10 @@
 
 .menu__item a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .menu__item a:hover {
-    color: lightblue;
+    color: lightgray;
+    text-decoration: underline;
 }

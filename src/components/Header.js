@@ -8,8 +8,8 @@ class Header extends Component {
           <h1 className="name">Nick Eddy</h1>
           <nav>
             <ul className="menu">
-              <li className="menu__item"><a href="#">About</a></li>
-              <li className="menu__item"><a href="#">Projects</a></li>
+              <li className="menu__item"><a href="#about">About</a></li>
+              <li className="menu__item"><a href="#projects">Projects</a></li>
               <li className="menu__item"><a href="#">Contact</a></li>
             </ul>
           </nav>
