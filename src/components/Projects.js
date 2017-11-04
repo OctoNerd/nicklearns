@@ -8,10 +8,10 @@ class Projects extends Component {
         <div className = "section-projects" id = "projects">
             <h2 className="heading">Projects</h2>
             <div className = "projectWrap">
-              <Project />
-              <Project />
-              <Project />
-              <Project />
+              <Project imagePath="images/mastermindScreenShot.png"/>
+              <Project imagePath="http://placeimg.com/1000/500/tech?t=1509152053103"/>
+              <Project imagePath="http://placeimg.com/1000/500/tech?t=1509152053103"/>
+              <Project imagePath="http://placeimg.com/1000/500/tech?t=1509152053103"/>
             </div>
         </div>
     );
