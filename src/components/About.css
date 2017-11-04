@@ -1,20 +1,37 @@
 .section-about {
     background-color: white;
+    padding: 40px 80px 80px;
+}
+
+.about-text-wrap {
+    font-size: 18px;
+    font-weight: 300;
 }
 
 .img-face {
+    height: 180px;
     border-radius: 50%;
-}
-
-.about-text {
-    width: 50%;
+    margin-right: 50px;
 }
 
 .about-content-wrap {
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
-    flex-wrap: wrap;
-    max-width: 900px;
+    max-width: 920px;
     margin: 0 auto;
+}
+
+@media screen and (max-width: 800px) {
+    .img-face {
+        margin: 0 auto;
+    }
+    .about-content-wrap {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .section-about {
+        padding: 40px 20px;
+    }
 }

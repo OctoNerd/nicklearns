@@ -1,6 +1,8 @@
 header {
-    height: 500px;
-    text-align: center
+    height: 100vh;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 100px;
 }
 .name {
     font-family: sans-serif;
