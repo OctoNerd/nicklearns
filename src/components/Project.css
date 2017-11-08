@@ -1,16 +1,29 @@
-.project {
-    width: 300px;
-    border: 1px solid black;
-    background-color: white;
+* {
+    box-sizing: border-box;
 }
-.project__image {
-    height: 200px;
+
+.project__card {
     width: 300px;
+    outline: 1px solid black;
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+.project__image {
+    width: 300px;
+    outline: 1px solid black;
+}
+
+.project__info {
+    margin: 0;
+    outline: 1px solid black;
+}
+
+.project__info p {
+    margin: 0;
 }
 
 .project__icons {
-    height: 32px;
-    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
