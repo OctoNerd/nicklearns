@@ -7,12 +7,12 @@ class Project extends Component {
         <div className="project__card">
           <img className="project__image" src={this.props.imagePath} />
           <div className="project__info">
-            <p>This is a short blurb of text about this project.</p>
-            <div className="project__icons">
-              <a alt="a project" href="#"><i className="fa fa-external-link fa-2x"></i></a>
-              <a alt="a project" href="#"><i className="fa fa-github fa-2x"></i></a>
-            </div>
+            <h3 className="project__info__name">{this.props.projectName}</h3>
+            <a className="project__info__link" href="https://www.github.com/OctoNerd">View on Github</a>
+            <a className="project__info__link" href="#">View live site</a>
           </div>
+          <p className="project__description">This is a short blurb of text about this project.</p>
+          
         </div>
     );
   }

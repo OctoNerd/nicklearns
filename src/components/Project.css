@@ -1,25 +1,28 @@
-* {
-    box-sizing: border-box;
-}
-
 .project__card {
-    width: 300px;
-    outline: 1px solid black;
+    width: 500px;
     background-color: white;
+    border: 1px solid black;
+    position: relative;
     margin-bottom: 50px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .project__image {
-    width: 300px;
-    outline: 1px solid black;
+    width: 100%;
+    display: block;
 }
 
 .project__info {
-    margin: 0;
-    outline: 1px solid black;
+    background-color: white;
+    text-align: center;
 }
 
-.project__info p {
+.project__info__name {
+    margin: 0;
+    float: left;
+}
+
+.project__info__description {
     margin: 0;
 }
 

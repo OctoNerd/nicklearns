@@ -24,6 +24,12 @@ header {
     list-style: none;
     margin: .5em;
     display: inline-block;
+    transition: transform 0.1s;
+    transition-timing-function: ease-in-out;
+}
+
+.menu__item:hover {
+    transform: scale(1.07);
 }
 
 .menu__item a {
@@ -32,6 +38,5 @@ header {
 }
 
 .menu__item a:hover {
-    color: lightgray;
     text-decoration: underline;
 }
