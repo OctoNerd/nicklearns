@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import "./Projects.css";
-import Project from "./Project";4
+import Project from "./Project";
 
 class Projects extends Component {
   render() {
     return (
         <div className = "section-projects" id = "projects">
-            <h2 className="heading">Projects</h2>
+            <h2 className = "heading">Projects</h2>
             <div className = "projectWrap">
               <Project imagePath="images/mastermindScreenShot.png" projectName="Mastermind"/>
               <Project imagePath="images/washcycleScreenShot.png" projectName="Washcycle"/>

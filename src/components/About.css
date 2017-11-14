@@ -11,7 +11,7 @@
 .img-face {
     height: 250px;
     border-radius: 50%;
-    margin-right: 50px;
+    margin-right: 50px; 
 }
 
 .about-content-wrap {
@@ -23,7 +23,7 @@
 
 @media screen and (max-width: 800px) {
     .img-face {
-        margin: 0 auto;
+        margin: 0px auto 50px auto;
     }
     .about-content-wrap {
         flex-wrap: wrap;

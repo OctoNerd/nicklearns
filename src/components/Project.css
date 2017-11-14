@@ -3,6 +3,9 @@
     background-color: white;
     border: 1px solid black;
     position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     margin-bottom: 50px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
