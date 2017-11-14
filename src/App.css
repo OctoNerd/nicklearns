@@ -3,10 +3,11 @@
 }
 
 html {
-  background: url('http://placeimg.com/1366/768/nature') no-repeat center center fixed;
+  background: url('components/mountain.jpeg') no-repeat center center fixed;
   background-size: cover;
 }
 
 .heading {
   margin: 0 0 50px 0;
+  font-family: 'Slabo 27px', serif;
 }

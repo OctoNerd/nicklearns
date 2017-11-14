@@ -8,8 +8,10 @@ class Project extends Component {
           <img className="project__image" src={this.props.imagePath} />
           <div className="project__info">
             <h3 className="project__info__name">{this.props.projectName}</h3>
-            <a className="project__info__link" href="https://www.github.com/OctoNerd">View on Github</a>
-            <a className="project__info__link" href="#">View live site</a>
+            <div className="project__info__links">
+              <a className="project__info__link" href="https://www.github.com/OctoNerd">View on Github</a>
+              <a className="project__info__link" href="#">View live site</a>
+            </div>
           </div>
           <p className="project__description">This is a short blurb of text about this project.</p>
           

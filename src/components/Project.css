@@ -14,20 +14,15 @@
 
 .project__info {
     background-color: white;
-    text-align: center;
 }
 
 .project__info__name {
-    margin: 0;
-    float: left;
+    
 }
 
-.project__info__description {
-    margin: 0;
-}
-
-.project__icons {
+.project__info__links {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-around; 
+}
+.project__description {
 }

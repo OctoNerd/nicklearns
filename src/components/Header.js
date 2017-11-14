@@ -5,6 +5,7 @@ class Header extends Component {
   render() {
     return (
       <header>
+        <div className="wrap">
           <h1 className="name">Nick Eddy</h1>
           <nav>
             <ul className="menu">
@@ -13,6 +14,7 @@ class Header extends Component {
               <li className="menu__item"><a href="#">Contact</a></li>
             </ul>
           </nav>
+        </div>
       </header>
     );
   }
