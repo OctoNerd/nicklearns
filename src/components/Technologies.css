@@ -1,0 +1,59 @@
+.section-technologies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(#24596b, #6ca6b4);
+    /* background-image: radial-gradient( center bottom, circle cover, #6ca6b4, #24596b); */
+}
+
+.svg_icon {
+    height: 150px;
+}
+
+.tech_logo {
+    text-align: center;
+    filter: grayscale(90%);
+    transition: filter .5s;
+    margin: 25px 0;
+}
+
+.tech_logo:hover {
+    filter: none;
+}
+
+.icon-name {
+    font-size: 1.5em;
+    margin: 0;
+    /* text-shadow: 1px 1px 2px black;  */
+}
+
+@media screen and (max-width: 1050px) {
+    .svg_icon {
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .svg_icon {
+        height: 75px;
+    }
+    .icon-name {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .svg_icon {
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .svg_icon {
+        height: 30px;
+    }
+    .icon-name {
+        font-size: .75em;
+    }
+}
