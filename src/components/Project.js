@@ -9,8 +9,8 @@ class Project extends Component {
           <div className="project__info">
             <h3 className="project__info__name">{this.props.projectName}</h3>
             <div className="project__info__links">
-              <a className="project__info__link" href="https://www.github.com/OctoNerd">View on Github</a>
-              <a className="project__info__link" href="#">View live site</a>
+              <a className="project__info__link" href={this.props.githubLink}>View on Github</a>
+              <a className="project__info__link" href={this.props.liveLink}>View live site</a>
             </div>
           </div>
           <p className="project__description">This is a short blurb of text about this project.</p>
