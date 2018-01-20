@@ -3,6 +3,7 @@ import Header from './Header';
 import Projects from './Projects';
 import About from './About';
 import Technologies from './Technologies';
+import Contact from './Contact';
 
 class Layout extends Component {
   render() {
@@ -12,6 +13,7 @@ class Layout extends Component {
             <About />
             <Technologies />
             <Projects />
+            <Contact />
         </div>
     );
   }

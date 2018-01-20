@@ -11,7 +11,7 @@ class Header extends Component {
             <ul className="menu">
               <li className="menu__item"><a href="#about">About</a></li>
               <li className="menu__item"><a href="#projects">Projects</a></li>
-              <li className="menu__item"><a href="#">Contact</a></li>
+              <li className="menu__item"><a href="#contact">Contact</a></li>
             </ul>
           </nav>
         </div>
