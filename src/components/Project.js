@@ -13,7 +13,9 @@ class Project extends Component {
               <a className="project__info__link" href={this.props.liveLink}>View live site</a>
             </div>
           </div>
-          <p className="project__description">This is a short blurb of text about this project.</p>
+          <p className="project__description">{this.props.projectDescription}</p>
+          <ul className="project__technologies">
+          </ul>
         </div>
     );
   }
