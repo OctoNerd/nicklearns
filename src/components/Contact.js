@@ -11,11 +11,11 @@ class Contact extends Component {
                 <div className="contact-form-senderInfo">
                     <label>
                         <span>Your Name</span>
-                        <input name="name" type="text"/>
+                        <input className="input-name" name="name" type="text"/>
                     </label>
                     <label>
                         <span>Your E-Mail</span>
-                        <input name="_replyto" type="email"/>
+                        <input className="input-email" name="_replyto" type="email"/>
                     </label>
                 </div>
                 <label>
